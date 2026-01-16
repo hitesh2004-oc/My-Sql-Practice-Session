@@ -4,7 +4,7 @@
 
 use regex;
 -- create 
-create table vinod(id int);
+create table hitesh(id int);
 
 -- create a table using select (CTAS)
 create table actor_cp as 
