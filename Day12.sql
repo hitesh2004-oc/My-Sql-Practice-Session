@@ -45,6 +45,7 @@ INSERT INTO employee (emp_id, emp_name, job_title, manager_id, salary) VALUES
 (14, 'Peggy', 'HR Executive', 4, 54000),
 (15, 'Sybil', 'Intern', 8, 35000);
 use regex_2;
+-- Using Join with where Clause and Make query More Easy
 select * from employee;
 select em.emp_id,em.emp_name,em.manager_id,em.salary,mng.emp_id,mng.emp_name,mng.salary
 from employee as em join employee as mng where em.manager_id = mng.emp_id ;
